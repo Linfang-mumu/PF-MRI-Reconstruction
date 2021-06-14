@@ -3,7 +3,5 @@ Publicly available datasets, including T1w brain data from Calgary-Campinas Publ
 
 
 [1]<https://sites.google.com/view/calgary-campinas-dataset/download?authuser=0>
-[2]<https://fastmri.med.nyu.edu/>
-[3]<https://openneuro.org/datasets/ds000221/versions/1.0.0>
-
- 
+[2]<https://fastmri.med.nyu.edu/> 
+[3]<https://openneuro.org/datasets/ds000221/versions/1.0.0> 
