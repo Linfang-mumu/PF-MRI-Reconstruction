@@ -105,7 +105,7 @@ class ResBlock(nn.Module):
 
         super(ResBlock, self).__init__()
         m = []
-        for i in range(2):
+        for i in range(3):
             m.append(ComplexConv2d(n_feats, n_feats, kernel_size, bias=bias))
             if bn:
                 m.append(nn.BatchNorm2d(n_feats))
@@ -187,7 +187,7 @@ class Net_cpx(nn.Module):
 #################################################
 
         y = x
-        for i in range(2):
+        for i in range(3):
             x = y
             new_k = torch.complex(x[:, 0, :, :], x[:, 1, :, :])
 
@@ -668,7 +668,7 @@ class Net_cpx_2D(nn.Module):
 #################################################
 
         y = x
-        for i in range(2):
+        for i in range(3):
             x = y
             new_k = torch.complex(x[:, 0, :, :], x[:, 1, :, :])
 
